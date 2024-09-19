@@ -1,0 +1,60 @@
+1
+int age = 25;
+  print('Значение перeменной age = ${age};');  
+2
+  double height = 1.75;
+  print('Значение перeменной height = ${height};');
+3
+ String name = "ДПК";
+  print('Значение перeменной name = ${name};');
+4
+ bool isStudent = true;
+  print('Значение перeменной isStudent = ${isStudent};');
+5
+List <int> numbers =[1,2,3,4,5];
+  print('Значение перeменной numbers = ${numbers};');
+6
+Map<String, int> scores ={"User1":95, "User2":88};
+  print('Значение перeменной scores = ${scores};');
+7
+Set <int> uniqueNumbers ={1,2,3,4,5};
+  print('Значение перeменной uniqueNumbers = ${uniqueNumbers};');
+8
+Runes emoji = Runes('\u{1F600}');
+  print('Значение переменной emoji = ${String.fromCharCodes(emoji)}');
+9
+Symbol symbol = #mysymbol;
+  print('Значение перeменной emoji= ${symbol};');
+10
+dynamic anything = "ДПК";
+  print('Значение перeменной anything= ${anything};');
+11
+var message = "ДПК";
+  print('Значение перменной message= ${message};');
+12
+final pi = 3.14;
+  print('Значение перменной pi= ${pi};');
+13
+const gravity= 9.8;
+  print('Значение перменной gravity= ${gravity};');
+14
+DateTime now = DateTime.now();
+  print('Значение перeменной now= ${now};');
+15
+Duration duration = Duration (minutes: 5);
+  print('Значение перeменной duration= ${duration};');
+16
+BigInt bigNumber =BigInt.parse('12345678901234567890');
+  print('Значение перeменной bigNumber= ${bigNumber};');
+17
+num number =10.5;
+  print('Значение перeменной number= ${number};');
+18
+StringBuffer buffer = StringBuffer();
+buffer.write ('Hello ');
+  buffer.write('Dart');
+  
+   print('Значение перeменной number= ${buffer.toString()};');
+19
+Uri url = Uri.parse("https://politendon.ru/");
+   print('Значение перeменной url= ${url};');
